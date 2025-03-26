@@ -28,5 +28,10 @@ export default {
             plugins: [terser()],
         },
     ],
-    plugins: [ typescript(), nodeResolve()],
+    plugins: [
+        typescript({
+            tsconfig: "./tsconfig.json"
+        }),
+        nodeResolve()
+    ],
 };
