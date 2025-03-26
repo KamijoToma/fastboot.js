@@ -1,11 +1,11 @@
 {
-    "name": "android-fastboot",
-    "version": "1.1.3",
-    "description": "JavaScript implementation of fastboot, using WebUSB",
+    "name": "android-fastboot-ts",
+    "version": "1.1.4",
+    "description": "JavaScript implementation of fastboot, using WebUSB, a fork from android-fastboot with TS support",
     "main": "dist/fastboot.cjs",
     "module": "dist/fastboot.mjs",
-    "repository": "https://github.com/kdrag0n/fastboot.js",
-    "author": "Danny Lin <danny@kdrag0n.dev>",
+    "repository": "https://github.com/KamijoToma/fastboot.js",
+    "author": "Danny Lin <danny@kdrag0n.dev>, vlad, KamojoToma",
     "license": "MIT",
     "dependencies": {
         "@zip.js/zip.js": "2.2.27"
@@ -33,5 +33,5 @@
         "dist",
         "src"
     ],
-    "types": "./dist"
+    "types": "./dist/types/"
 }
