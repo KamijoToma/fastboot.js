@@ -1,5 +1,9 @@
 # fastboot.js
 
+Notice: This package is a modified version of the [original fastboot.js](https://www.npmjs.com/package/android-fastboot), enabling the typescript support.
+
+Due to lack of maintenance of original repository, I created this repository. If you want to add some new functions or report bugs, feel free to open a PR.
+
 fastboot.js is an implementation of the Android [fastboot](https://android.googlesource.com/platform/system/core/+/master/fastboot/README.md) protocol in JavaScript. It runs in web browsers by using the [WebUSB](https://wicg.github.io/webusb/) API, which is currently supported by Chrome.
 
 If you're looking for a ready-to-use installer for custom ROMs, see [android-webinstall](https://github.com/kdrag0n/android-webinstall).
@@ -26,14 +30,14 @@ Detailed progress callbacks are also provided for many flashing steps.
 
 ## Installation
 
-This library is available as a [package](https://www.npmjs.com/package/android-fastboot) on npm, so you can easily add it to your project:
+This library is available as a [package](https://www.npmjs.com/package/android-fastboot-ts) on npm, so you can easily add it to your project:
 
 ```bash
 # Using npm
-npm install --save android-fastboot
+npm install --save android-fastboot-ts
 
 # Using yarn
-yarn add android-fastboot
+yarn add android-fastboot-ts
 ```
 
 ## Examples
